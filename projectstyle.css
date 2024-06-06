@@ -1,0 +1,46 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+    border: 1px dotted brown;
+}
+
+.nav-items>ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+}
+
+.nav-items>ul>li{
+    padding: 4px;
+}
+.logo{
+    width: 80px;
+    height: 65  px;
+}
+.Card{
+    background-color: #FC8019;
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+.Card>img{
+   width: 100%;
+}
+
+.restroList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+.header .nav-items .list  {
+    color: #FC8019;
+    font-weight: bold;
+
+    }
